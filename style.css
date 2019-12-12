@@ -1,0 +1,31 @@
+/*
+Primary Blue: #21295C
+Secondary Blue: #1C7293
+Primary Green: #44CF6C
+Secondary Green: #A9FDAC
+Primary White: #F1FFE7
+*/
+
+body{
+	background-color: #1C7293;
+	margin: 0;
+}
+
+div.container{
+	background-color: #21295C;
+	width: 85%;
+	margin: 0 auto;
+	padding: 25px 0;
+}
+div.page{
+	background-color: #F1FFE7;
+	min-height: 450px;
+	margin: 0 10%;
+}
+
+
+div.controls{
+	background-color: #A9FDAC;
+	min-height: 100px;
+	margin: 25px 10% 0;
+}
