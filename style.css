@@ -5,6 +5,13 @@ Primary Green: #44CF6C
 Secondary Green: #A9FDAC
 Primary White: #F1FFE7
 */
+*, html, body{
+	box-sizing: border-box;
+}
+
+input, textarea{
+	margin: none;
+}
 
 body{
 	background-color: #1C7293;
@@ -19,8 +26,9 @@ div.container{
 }
 div.page{
 	background-color: #F1FFE7;
-	min-height: 450px;
+	height: 450px;
 	margin: 0 10%;
+	display: flex;
 }
 
 
@@ -28,4 +36,35 @@ div.controls{
 	background-color: #A9FDAC;
 	min-height: 100px;
 	margin: 25px 10% 0;
+	padding-top: 10px;
+}
+
+button.btn{
+	height: 80px;
+	margin: 0 20px;
+	min-width: 20%;
+	background-color: #F1FFE7;
+	border: 1px solid #A9FDAC;
+	border-radius: 5px;
+	display: block;
+}
+
+button.one-btn{
+	min-width: 55%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.page p, div.page input#charPos{
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	display: block;
+}
+
+div.page p span#resourceCoords{
+	font-size: 2em;
+}
+div.page p span#resourceName{
+	color: #1C7293;
 }
