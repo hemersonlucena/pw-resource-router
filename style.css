@@ -25,7 +25,7 @@ div.container{
 	padding: 25px 0;
 }
 div.page{
-	background-color: #F1FFE7;
+	background-color: #A9FDAC;
 	height: 450px;
 	margin: 0 10%;
 	display: flex;
@@ -60,6 +60,14 @@ div.page p, div.page input#charPos{
 	width: 100%;
 	margin: auto;
 	display: block;
+}
+
+div.page input#charPos{
+	background-color: #F1FFE7;
+	border-left: none;
+	border-right: none;
+	min-height: 50px;
+	font-size: 1.2em;
 }
 
 div.page p span#resourceCoords{
